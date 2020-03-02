@@ -11,7 +11,7 @@ class Sam:
     def mainp(self):
         src = "testt"  # your base file
 
-        des = '/Users/b.s.v.prasad/Desktop/'  # destination Filelocation
+        des = '/Users/b.s.v.prasad/Desktop/VishanthUploads'  # destination Filelocation
 
         newPath = shutil.copy(src, des, follow_symlinks=True)
         
